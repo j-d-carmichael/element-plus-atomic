@@ -27,13 +27,13 @@ pnpm install
 ### Compiles and hot-reloads for development
 
 ```bash
-npm run dev
+pnpm dev
 ```
 
 ### Compiles and minifies for production
 
 ```bash
-npm run build
+pnpm build
 ```
 
 ## Usage
@@ -41,8 +41,8 @@ npm run build
 ```bash
 git clone https://github.com/element-plus/element-plus-vite-starter
 cd element-plus-vite-starter
-npm i
-npm run dev
+pnpm i
+pnpm dev
 ```
 
 ### Custom theme

@@ -1,0 +1,30 @@
+// import dark theme
+@use 'element-plus/theme-chalk/src/dark/css-vars.scss' as *;
+
+@use "app/index.scss";
+
+@use "bulma/sass/helpers/flexbox.scss";
+@use "bulma/sass/helpers/gap.scss";
+@use "bulma/sass/helpers/spacing.scss";
+@use "bulma/sass/helpers/visibility.scss";
+
+@use "element-plus/theme-chalk/src/alert.scss";
+@use "element-plus/theme-chalk/src/badge.scss";
+@use "element-plus/theme-chalk/src/breadcrumb.scss";
+@use "element-plus/theme-chalk/src/breadcrumb-item.scss";
+@use "element-plus/theme-chalk/src/color-picker.scss";
+@use "element-plus/theme-chalk/src/carousel";
+@use "element-plus/theme-chalk/src/carousel-item";
+@use "element-plus/theme-chalk/src/dialog";
+@use "element-plus/theme-chalk/src/form.scss";
+@use "element-plus/theme-chalk/src/form-item.scss";
+@use "element-plus/theme-chalk/src/loading.scss";
+@use "element-plus/theme-chalk/src/message.scss";
+@use "element-plus/theme-chalk/src/message-box.scss";
+@use "element-plus/theme-chalk/src/notification.scss";
+@use "element-plus/theme-chalk/src/pagination.scss";
+@use "element-plus/theme-chalk/src/select.scss";
+@use "element-plus/theme-chalk/src/select-dropdown";
+@use "element-plus/theme-chalk/src/select-dropdown-v2";
+@use "element-plus/theme-chalk/src/table.scss";
+@use "element-plus/theme-chalk/src/tag";

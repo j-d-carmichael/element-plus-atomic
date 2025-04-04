@@ -1,0 +1,12 @@
+.el-dialog {
+  width: 90% !important;
+  @media screen and (min-width: 768px) {
+    max-width: 600px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .el-dialog {
+    width: 95% !important;
+  }
+}

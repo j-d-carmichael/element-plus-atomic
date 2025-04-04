@@ -1,0 +1,58 @@
+@use "font" as font;
+
+body {
+  @include font.appFont(400);
+  font-size: 16px;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  margin: 0;
+
+  color: var(--el-text-color-primary);
+}
+
+a {
+  color: var(--el-color-info-dark-2);
+  text-decoration: none;
+
+  &:hover {
+    color: var(--el-color-primary);
+  }
+}
+
+h1 {
+  font-size: 3rem;
+  line-height: 130%;
+  margin: 1rem;
+  @include font.appFont(800);
+}
+
+h2 {
+  font-size: 2.5rem;
+  margin: 0.25rem;
+  @include font.appFont(600);
+}
+
+h3 {
+  font-size: 1.8rem;
+  margin: 0;
+  @include font.appFont(600);
+}
+
+h4 {
+  font-size: 1.3rem;
+  margin: 0;
+  @include font.appFont(600);
+}
+
+ul {
+  list-style-type: none; /* Remove default bullet points */
+  padding-left: 20px; /* Indent the entire list */
+
+  li::marker {
+    content: '• '; /* Add bullet points manually */
+    font-size: 1em;
+    padding-left: 20px; /* Ensure the marker is indented */
+  }
+}

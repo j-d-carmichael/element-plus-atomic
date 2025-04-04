@@ -1,0 +1,41 @@
+$--colors: (
+  'primary': (
+    'base': green,
+  ),
+  'success': (
+    'base': #21ba45,
+  ),
+  'warning': (
+    'base': #f2711c,
+  ),
+  'danger': (
+    'base': #db2828,
+  ),
+  'error': (
+    'base': #db2828,
+  ),
+  'info': (
+    'base': #42b8dd,
+  ),
+);
+
+@forward "element-plus/theme-chalk/src/mixins/config.scss" with (
+  $namespace: "el"
+);
+
+@forward "element-plus/theme-chalk/src/common/var.scss" with (
+  $colors: $--colors,
+  $button-padding-horizontal: ("default": 50)
+);
+
+// Add overrides
+@use "./overrides/button";
+@use "./overrides/checkbox";
+@use "./overrides/dialog";
+@use "./overrides/drawer";
+@use "./overrides/form";
+@use "./overrides/link";
+@use "./overrides/loading";
+@use "./overrides/row";
+
+@use "./dark.scss";

@@ -1,0 +1,14 @@
+.is-hand {
+  cursor: pointer !important;
+
+  &.is-hover-highlight {
+
+    &:hover {
+      color: var(--el-color-primary);
+
+      svg {
+        color: var(--el-color-primary);
+      }
+    }
+  }
+}

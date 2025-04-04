@@ -1,0 +1,88 @@
+.font-righteous {
+  font-family: "Righteous", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@mixin appFont($weight, $style: normal) {
+  font-family: "Poppins", sans-serif;
+  font-weight: $weight;
+  font-style: $style;
+}
+
+input, textarea {
+  font-size: 16px !important;
+}
+
+// Usage Examples
+.app-font-thin {
+  @include appFont(100);
+}
+
+.app-font-extralight {
+  @include appFont(200);
+}
+
+.app-font-light {
+  @include appFont(300);
+}
+
+.app-font-regular {
+  @include appFont(400);
+}
+
+.app-font-medium {
+  @include appFont(500);
+}
+
+.app-font-semibold {
+  @include appFont(600);
+}
+
+.app-font-bold {
+  @include appFont(700);
+}
+
+.app-font-extrabold {
+  @include appFont(800);
+}
+
+.app-font-black {
+  @include appFont(900);
+}
+
+.app-font-thin-italic {
+  @include appFont(100, italic);
+}
+
+.app-font-extralight-italic {
+  @include appFont(200, italic);
+}
+
+.app-font-light-italic {
+  @include appFont(300, italic);
+}
+
+.app-font-regular-italic {
+  @include appFont(400, italic);
+}
+
+.app-font-medium-italic {
+  @include appFont(500, italic);
+}
+
+.app-font-semibold-italic {
+  @include appFont(600, italic);
+}
+
+.app-font-bold-italic {
+  @include appFont(700, italic);
+}
+
+.app-font-extrabold-italic {
+  @include appFont(800, italic);
+}
+
+.app-font-black-italic {
+  @include appFont(900, italic);
+}

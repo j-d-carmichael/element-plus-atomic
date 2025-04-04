@@ -1,0 +1,7 @@
+.el-link {
+  --el-link-font-size: var(--el-font-size-base);
+  --el-link-font-weight: var(--el-font-weight-primary);
+  --el-link-text-color: var(--el-color-primary) !important;
+  --el-link-hover-text-color: var(--el-color-primary);
+  --el-link-disabled-text-color: var(--el-text-color-placeholder);
+}
